@@ -22,6 +22,7 @@ The purpose of this analysis is to model data from a charity dataset, possibly f
      - Two hidden layers with 14 and 21 neurons respectively, both using the ReLU activation function.
      - The output layer used the Sigmoid activation function.
   2. **Second Model (nn_2):**
+     - To minimise overfitting, added additional hidden layer, neurons and ephocs.
      - Three hidden layers with 7, 14 and 21 neurons respectively, both using the ReLU activation function.
      - The output layer used the Sigmoid activation function.
 
@@ -37,7 +38,7 @@ The purpose of this analysis is to model data from a charity dataset, possibly f
 
 ## Summary
 
-The deep learning model constructed for the Alphabet Soup dataset underwent multiple iterations. While the first model achieved an accuracy of approximately 71.30%, the performance of the second model achieved an accuracy of approximately 79.16%.
+The deep learning model constructed for the Alphabet Soup dataset underwent multiple iterations. While the first model achieved an accuracy of approximately 71.37%, the performance of the second model achieved an accuracy of approximately 75.21% which was the target performance.
 
 ### Recommendation
 
