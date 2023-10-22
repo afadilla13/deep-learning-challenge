@@ -19,10 +19,10 @@ The purpose of this analysis is to model data from a charity dataset, possibly f
 
 - **Model Architecture:** 
   1. **First Model (nn_1):** 
-     - Two hidden layers with 14 and 28 neurons respectively, both using the ReLU activation function.
+     - Two hidden layers with 14 and 21 neurons respectively, both using the ReLU activation function.
      - The output layer used the Sigmoid activation function.
   2. **Second Model (nn_2):**
-     - Two hidden layers with 7 and 14 neurons respectively, both using the ReLU activation function.
+     - Three hidden layers with 7, 14 and 21 neurons respectively, both using the ReLU activation function.
      - The output layer used the Sigmoid activation function.
 
 - **Model Compilation:** 
@@ -32,8 +32,8 @@ The purpose of this analysis is to model data from a charity dataset, possibly f
 
 - **Training:** Both models were trained for 100 epochs.
 - **Model Performance:** 
-  - **First Model (nn_1):** Achieved an accuracy of approximately 71.30%.
-  - **Second Model (nn_2):** Achieved an accuracy of approximately 79.16%.
+  - **First Model (nn_1):** Achieved an accuracy of approximately 71.37%.
+  - **Second Model (nn_2):** Achieved an accuracy of approximately 75.21%.
 
 ## Summary
 
